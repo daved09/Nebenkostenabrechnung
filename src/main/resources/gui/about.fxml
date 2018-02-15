@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="212.0" prefWidth="335.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="gui.AboutController">
+   <children>
+      <Button fx:id="btnClose" layoutX="256.0" layoutY="167.0" mnemonicParsing="false" onAction="#close" text="Button" />
+      <TextArea fx:id="txtAbout" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="143.0" prefWidth="307.0" style="-fx-font-size: 20;" AnchorPane.bottomAnchor="55.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
+         <cursor>
+            <Cursor fx:constant="NONE" />
+         </cursor>
+      </TextArea>
+   </children>
+</AnchorPane>
